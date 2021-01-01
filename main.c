@@ -467,10 +467,6 @@ int main(void)
     char input[80];
     char output[80];
     char type[8];
-    printf("--------------------------------------------------------------\n");
-        printf(" na linuxu funguje dobre, pouze jsem nestihnul BINARNI prebody z/do PBM.\n\n");
-        printf(" prosim zadavat cele nazvy obrazku 'jmeno.typ', umisteni ve stejnem adresari jako main.c\n");
-    printf("--------------------------------------------------------------\n\n");
 
     printf("Input file:\n");
     fgets(input, sizeof(input), stdin);
